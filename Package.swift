@@ -21,6 +21,6 @@ let package = Package(
         .binaryTarget(
 			name: "GoogleCast",
 			url: "https://github.com/Frederiks96/GoogleCastSPM/blob/v4.6.1/GoogleCast.xcframework.zip",
-			checksum: "8658662a5dc8044dcb008f2c49369edb97136f45178334a35f0d4a7a2ad9bf58")
+			checksum: "9b5f0da542cbbfe7902477841f49a7fa6742ef4dfadb637dd8e0ad8e6045e332")
     ]
 )
