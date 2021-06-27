@@ -9,7 +9,8 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "GoogleCast",
-            targets: ["GoogleCast"]),
+			type: .dynamic,
+            targets: ["GoogleCast", "GoogleCastCoreResources", "GoogleCastUIResources"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
